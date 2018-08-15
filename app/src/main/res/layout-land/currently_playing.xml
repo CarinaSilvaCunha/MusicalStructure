@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/currentLinearLayout"
+    style="@style/currentLinearLayoutLand"
+    tools:context=".CurrentlyPlaying">
+
+    <LinearLayout
+        android:id="@+id/currentLinearLayouttwo"
+        style="@style/currentLinearLayouttwoLand">
+
+        <LinearLayout
+            android:id="@+id/base01"
+            style="@style/base01land">
+
+            <ImageButton
+                android:id="@+id/goHomeButton"
+                style="@style/goHomeButtonLand"
+                android:src="@drawable/homebutton" />
+
+            <TextView
+                android:id="@+id/currentlyPlaying"
+                style="@style/currentlyPlayingLand"
+                android:text="Currently Playing" />
+
+            <ImageButton
+                android:id="@+id/base03"
+                style="@style/base03" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/artistPicture"
+            style="@style/artistPictureland"
+            android:src="@drawable/queen" />
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/artistland"
+            android:text="Artist" />
+
+        <TextView
+            android:id="@+id/currentSong"
+            style="@style/currentSongLand"
+            android:text="Song" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/base02"
+        style="@style/base02lan">
+
+        <ImageButton
+            android:id="@+id/currentPlayButton"
+            style="@style/currentPlayButtonland"
+            android:src="@drawable/playbutton" />
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            style="@style/pauseButtonLand"
+            android:src="@drawable/pausebutton" />
+
+        <ImageButton
+            android:id="@+id/stopButton"
+            style="@style/stopButtonland"
+            android:src="@drawable/stopbutton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,378 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="currentLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="currentLinearLayouttwo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="goHome">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">@dimen/fiftydp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="currentlyPlaying">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@dimen/fourweight</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/twentyfivesp</item>
+    </style>
+    <style name="base">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">@dimen/fiftydp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+    </style>
+    <style name="base04">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/fiveweight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="artistPicture">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+        <item name="android:layout_weight">@dimen/fivesix</item>
+        <item name="android:contentDescription">@string/artistsongitems</item>
+        <item name="android:padding">@dimen/tendp</item>
+    </style>
+    <style name="artist">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/twentysp</item>
+    </style>
+    <style name="currentSong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorLightBlue</item>
+        <item name="android:textSize">@dimen/twentyfivesp</item>
+    </style>
+    <style name="linearButtons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="currentPlayButton">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/play_button</item>
+    </style>
+    <style name="pauseButton">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/pause_button</item>
+    </style>
+    <style name="stopButton">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/stop_button</item>
+    </style>
+    <style name="currentLinearLayoutLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorGreyBlue</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="currentLinearLayouttwoLand">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@dimen/threeweight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="base01land">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="goHomeButtonLand">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="currentlyPlayingLand">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">@dimen/fourweight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textColorLink">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/twelvesp</item>
+    </style>
+    <style name="base03">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="artistPictureland">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">@dimen/fiveweight</item>
+        <item name="android:contentDescription">@string/artistsongitems</item>
+    </style>
+    <style name="artistland">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/eightdp</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/sixteensp</item>
+    </style>
+    <style name="currentSongLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/eightdp</item>
+        <item name="android:textColor">@color/colorLightBlue</item>
+        <item name="android:textSize">@dimen/twentysp</item>
+    </style>
+    <style name="base02lan">
+        <item name="android:layout_width">@dimen/zerodp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="currentPlayButtonland">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/play_button</item>
+    </style>
+    <style name="pauseButtonLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/pause_button</item>
+    </style>
+    <style name="stopButtonland">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/stop_button</item>
+    </style>
+    <style name="genreRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="songPicture">
+        <item name="android:layout_width">@dimen/ninetydp</item>
+        <item name="android:layout_height">@dimen/ninetydp</item>
+        <item name="android:contentDescription">@string/artist_picture</item>
+    </style>
+    <style name="genreLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fiftydp</item>
+        <item name="android:layout_alignBottom">@id/songPicture</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_toRightOf">@id/songPicture</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/sixteendp</item>
+        <item name="android:layout_toEndOf">@id/songPicture</item>
+        <item name="android:paddingStart">@dimen/sixteendp</item>
+    </style>
+    <style name="genreText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="genreRelativeLayoutLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="songPictureLand">
+        <item name="android:layout_width">@dimen/ninetydp</item>
+        <item name="android:layout_height">@dimen/ninetydp</item>
+        <item name="android:contentDescription">@string/artist_picture</item>
+    </style>
+    <style name="genreLinearLayoutLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fiftydp</item>
+        <item name="android:layout_alignBottom">@id/songPicture</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_toRightOf">@id/songPicture</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/sixteendp</item>
+        <item name="android:layout_toEndOf">@id/songPicture</item>
+        <item name="android:paddingStart">@dimen/sixteendp</item>
+    </style>
+    <style name="genreTextLand">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="genreLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/ninetydp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="genreLayoutLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/ninetydp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="songRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/ninetydp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="songPictureSongItem">
+        <item name="android:layout_width">@dimen/ninetydp</item>
+        <item name="android:layout_height">@dimen/ninetydp</item>
+        <item name="android:contentDescription">@string/todo</item>
+    </style>
+    <style name="songLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fiftydp</item>
+        <item name="android:layout_alignBottom">@id/songPicture</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_toRightOf">@id/songPicture</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/sixteendp</item>
+        <item name="android:paddingRight">@dimen/twentysixdp</item>
+        <item name="android:layout_toEndOf">@id/songPicture</item>
+        <item name="android:paddingStart">@dimen/sixteendp</item>
+        <item name="android:paddingEnd">@dimen/twentysixdp</item>
+    </style>
+    <style name="currentSongSongItems">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="artistSongItems">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="playButtonSongItems">
+        <item name="android:layout_width">@dimen/twentysixdp</item>
+        <item name="android:layout_height">@dimen/twentysixdp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/sixteendp</item>
+        <item name="android:layout_marginEnd">@dimen/sixteendp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:contentDescription">TODO</item>
+    </style>
+    <style name="songRelativeLayoutSongLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/ninetydp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="songPictureSongLand">
+        <item name="android:layout_width">@dimen/ninetydp</item>
+        <item name="android:layout_height">@dimen/ninetydp</item>
+        <item name="android:contentDescription">@string/todo</item>
+    </style>
+    <style name="songLinearLayoutSongLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fiftydp</item>
+        <item name="android:layout_alignBottom">@id/songPicture</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_toRightOf">@id/songPicture</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/sixteendp</item>
+        <item name="android:paddingRight">@dimen/twentysixdp</item>
+        <item name="android:layout_toEndOf">@id/songPicture</item>
+        <item name="android:paddingStart">@dimen/sixteendp</item>
+        <item name="android:paddingEnd">@dimen/twentysixdp</item>
+    </style>
+    <style name="currentSongSongLand">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="artistsongland">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zerodp</item>
+        <item name="android:layout_weight">@dimen/oneweight</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="playButtonSongLand">
+        <item name="android:layout_width">@dimen/twentysixdp</item>
+        <item name="android:layout_height">@dimen/twentysixdp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/sixteendp</item>
+        <item name="android:layout_marginEnd">@dimen/sixteendp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:contentDescription">TODO</item>
+    </style>
+    <style name="songLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/ninetydp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="songLayoutLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/ninetydp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/currentLinearLayout"
+    style="@style/currentLinearLayout"
+    tools:context=".CurrentlyPlaying">
+
+    <LinearLayout
+        android:id="@+id/currentLinearLayouttwo"
+        style="@style/currentLinearLayouttwo">
+
+        <ImageButton
+            android:id="@+id/goHomeButton"
+            style="@style/goHome"
+            android:src="@drawable/homebutton" />
+
+        <TextView
+            android:id="@+id/currentlyPlaying"
+            style="@style/currentlyPlaying"
+            android:text="@string/currently_playing" />
+
+        <ImageButton
+            android:id="@+id/base"
+            style="@style/base" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/base04"
+        style="@style/base04">
+
+        <ImageView
+            android:id="@+id/artistPicture"
+            style="@style/artistPicture"
+            android:src="@drawable/queen" />
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/artist"
+            android:text="@string/artist" />
+
+        <TextView
+            android:id="@+id/currentSong"
+            style="@style/currentSong"
+            android:text="@string/song" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearButtons"
+        style="@style/linearButtons">
+
+        <ImageButton
+            android:id="@+id/currentPlayButton"
+            style="@style/currentPlayButton"
+            android:src="@drawable/playbutton" />
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            style="@style/pauseButton"
+            android:src="@drawable/pausebutton" />
+
+        <ImageButton
+            android:id="@+id/stopButton"
+            style="@style/stopButton"
+            android:src="@drawable/stopbutton" />
+    </LinearLayout>
+</LinearLayout>
+

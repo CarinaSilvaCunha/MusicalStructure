@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+
+    <!-- GenreList.java -->
+    <!-- Genres -->
+    <string name="rock">Rock Music</string>
+    <string name="pop">Pop Music</string>
+    <string name="classical">Classical Music</string>
+
+    <!-- Rock artists-->
+    <string name="queenBohemian">Bohemian Rhapsody</string>
+    <string name="ledZeppelinStarway">Starway to Heaven</string>
+    <string name="nirvanaSmells">Smells Like Teen Spirit</string>
+
+    <!-- Rock artists Songs-->
+    <string name="queen">Queen</string>
+    <string name="ledZeppelin">Led Zepplin</string>
+    <string name="nirvana">Nirvana</string>
+
+    <!-- Pop artists-->
+    <string name="britney">Britney Spears</string>
+    <string name="demi">Demi Lovato</string>
+    <string name="dua">Dua Lipa</string>
+
+    <!-- Pop artists Songs-->
+    <string name="britneyToxic">Toxic</string>
+    <string name="demiHeart">Heart Attack</string>
+    <string name="duaNew">New Rules</string>
+
+    <!-- Classical artists-->
+    <string name="vivaldi">Antonio Vivaldi</string>
+    <string name="gustav">Gustav Mahler</string>
+    <string name="charles">Charles Gounod</string>
+
+    <!-- Classical artists Songs-->
+    <string name="vivaldiFour">The Four Seasons</string>
+    <string name="gustavFive">Symphony No 5</string>
+    <string name="charlesAve">Ave Maria</string>
+
+    <!-- Commands  -->
+    <string name="pause">Future Song Pause</string>
+    <string name="play">Future Song Play</string>
+    <string name="stop">Future Song Stop</string>
+    <string name="artist_picture">Composer Picture</string>
+    <string name="todo">TODO</string>
+    <string name="currently_playing">Currently Playing</string>
+    <string name="artist">Artist</string>
+    <string name="song">Song</string>
+    <string name="stop_button">Stop Button</string>
+    <string name="pause_button">Pause Button</string>
+    <string name="play_button">Play Button</string>
+    <string name="artistsongitems">Artist</string>
+    <string name="songsongitems">Song</string>
+
+</resources>

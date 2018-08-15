@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zerodp">0dp</dimen>
+    <dimen name="oneweight">1</dimen>
+    <dimen name="fiftydp">50dp</dimen>
+    <dimen name="threeweight">3</dimen>
+
+    <dimen name="fourweight">4</dimen>
+    <dimen name="fiveweight">5</dimen>
+    <dimen name="fivesix">6</dimen>
+    <dimen name="eightdp">8dp</dimen>
+
+    <dimen name="tendp">10dp</dimen>
+    <dimen name="twelvesp">12sp</dimen>
+    <dimen name="sixteensp">16sp</dimen>
+    <dimen name="sixteendp">16dp</dimen>
+    <dimen name="twentysp">20sp</dimen>
+    <dimen name="twentyfivesp">25sp</dimen>
+    <dimen name="twentysixdp">26dp</dimen>
+    <dimen name="ninetydp">90dp</dimen>
+
+
+
+</resources>
